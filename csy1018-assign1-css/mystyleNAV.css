@@ -1,0 +1,26 @@
+  ul.styled-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 		#F0E68C;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+        float: left;
+}
+li.styled-list{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 13px 100px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: 		#BDB76B;
+}

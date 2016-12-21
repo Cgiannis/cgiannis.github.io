@@ -1,0 +1,42 @@
+body{
+  max-width: 7000px;
+background-image:url("../csy1018-assign1-images/yourstory-education.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+h1{
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  height: 50px;
+  width: 20%;
+  color : brown;
+   text-align: center;
+   border-radius: 8px;
+   background-color: #F0E68C;
+}
+p{
+ word-wrap: break-word;
+    text-indent: 15px;
+    font-family: 'Oswald', sans-serif;
+      background-color: #F0E68C;
+      color : 		brown;
+        border-radius: 15px;
+        text-align: left;
+        padding: 15px;
+          max-width: 60%
+}
+ul {
+    margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #F0E68C;
+color : 		brown;
+  border-radius: 15px;
+  background: #F0E68C;
+   list-style: square inside url("sqpurple.gif");
+      list-style-position:inside;
+}
+img{
+  border-radius: 500px;
+  float: right;
+  -webkit-filter: sepia(100%);filter: sepia(100%);
+}
