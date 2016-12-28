@@ -45,7 +45,7 @@ color : 		brown;
   border-radius: 15px;
   background: #F0E68C;
    list-style: square inside url("sqpurple.gif");
-      list-style-position:inside;
+      list-style-position:inside
 }
 ul.skills{
   margin-top: 1%;
