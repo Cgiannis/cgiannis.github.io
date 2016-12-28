@@ -1,8 +1,4 @@
   ul.styled-list {
-    display: -webkit-flex;
-   -webkit-flex-direction: row-reverse;
-   display: flex;
-   flex-direction: row-reverse;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,10 +8,10 @@
     left: 0;
     top: 0;
     width: 100%;
-        float: right;
+        float: left;
 }
 li.styled-list{
-    float: right;
+    float: left;
 }
 
 li a {
