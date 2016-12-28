@@ -1,4 +1,8 @@
   ul.styled-list {
+    display: -webkit-flex;
+   -webkit-flex-direction: row-reverse;
+   display: flex;
+   flex-direction: row-reverse;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,10 +12,10 @@
     left: 0;
     top: 0;
     width: 100%;
-        float: left;
+        float: right;
 }
 li.styled-list{
-    float: left;
+    float: right;
 }
 
 li a {
@@ -23,4 +27,7 @@ li a {
 }
 li a:hover {
     background-color: 		#BDB76B;
+}
+li.styled-list2{
+  float: left;
 }
