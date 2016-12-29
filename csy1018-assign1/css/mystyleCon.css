@@ -1,5 +1,5 @@
-body{
-	max-width: 7000px;
+body{                      /*the code here is the same as the last section i will comment whenever you see something new*/
+	max-width: 100%;
 background-image:url("C:/Users/user/Desktop/csy1018/cgiannis.github.io/csy1018-assign1/images/yourstory-education.jpg");
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -10,7 +10,7 @@ h1{
   font-size: 200%;
 	letter-spacing: 1px;
   height: 50px;
-  width: 20%;
+  width: 30%;
   color : brown;
    text-align: center;
    border-radius: 8px;
@@ -31,7 +31,6 @@ color : brown;
 }
 p{
 
- word-wrap: break-word;
     font-family: 'Oswald', sans-serif;
 		letter-spacing: 1px;
       background-color: #F0E68C;
@@ -53,7 +52,7 @@ color : 		brown;
    list-style: square inside url("sqpurple.gif");
       list-style-position:inside;
 }
-input[type=text] {
+input[type=text] { /*this is an input in the contact form specifically its aboout the text area*/
     width: 30%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -62,7 +61,7 @@ input[type=text] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=text2], select {
+input[type=text2], select { /*i made another type of text area input in order to make them different*/
     width: 30%;
     padding: 10px 40px;
     margin: 0px 0px;
@@ -72,7 +71,7 @@ input[type=text2], select {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type=submit] {/*this is the submit button input*/
     width: 10%;
     background-color:	#F0E68C;
     color: brown;
@@ -84,6 +83,6 @@ input[type=submit] {
 		margin: 4px 2px;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover { /*i made the submit button change color when i touch it*/
     background-color: #BDB76B;
 }

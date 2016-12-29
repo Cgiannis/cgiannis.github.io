@@ -1,59 +1,59 @@
 body{
-  max-width: 7000px;
-background-image:url("C:/Users/user/Desktop/csy1018/cgiannis.github.io/csy1018-assign1/images/yourstory-education.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  max-width: 100%;/*This is the maximum width my page can be */
+background-image:url("C:/Users/user/Desktop/csy1018/cgiannis.github.io/csy1018-assign1/images/yourstory-education.jpg");/*this is the link to my backround image*/
+background-repeat: no-repeat;/*i put this so the image wont repeat itself*/
+background-size: 100% 100%;/*this is the percentage of space the image takes */
 }
 h1{
   margin-top: 10%;
-  font-family: 'Oswald', sans-serif;
-  font-size: 200%;
-  height: 50px;
-  width: 20%;
-  color : brown;
+  font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+  font-size: 200%;/*here i say how big i want the fonts to be*/
+  height: 50px;/*this is the height of the border*/
+  width: 20%;/*this is the width of the border*/
+  color : brown;/*this is the color of the text inside the border*/
    text-align: center;
-   border-radius: 8px;
-   background-color: #F0E68C;
-   letter-spacing: 1px;
+   border-radius: 8px;/*here i specify the radius of the border*/
+   background-color: #F0E68C;/*this is the color of the border*/
+   letter-spacing: 1px;/*this is the space between the letters*/
 }
 h2{
 margin-top: 10%;
-  font-family: 'Oswald', sans-serif;
-height: 40px;
-width: 13%;
-color : brown;
+  font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+height: 40px;/*this is the height of the border*/
+width: 13%;/*this is the width of the border*/
+color : brown;/*this is the color of the text inside the border*/
  text-align: center;
- border-radius: 8px;
- background-color: #F0E68C;
-letter-spacing: 1px;
+ border-radius: 8px;/*here i specify the radius of the border*/
+ background-color: #F0E68C;/*this is the color of the border*/
+letter-spacing: 1px;/*this is the space between the letters*/
 
 }
 p{
  word-wrap: break-word;
-    text-indent: 3%;
-    font-family: 'Oswald', sans-serif;
-      background-color: #F0E68C;
-      color : 		brown;
-        border-radius: 5px;
-        text-align: left;
-        padding: 1%;
+    text-indent: 3%;/*i left a space in the beginning to show the start of a paragraph*/
+    font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+      background-color: #F0E68C;/*this is the color of the border*/
+      color : 		brown;/*this is the color of the text inside the border*/
+        border-radius: 5px;/*here i specify the radius of the border*/
+        text-align: left;/*i wanted the text to stay left*/
+        padding: 1%;/*here i specify how much padding i want */
           max-width: 60%;
-          letter-spacing: 1px;
+          letter-spacing: 1px;/*this is the space between the letters*/
 }
 ul {
     margin-top: 10%;
-  font-family: 'Oswald', sans-serif;
-  background-color: #F0E68C;
-color : 		brown;
-  border-radius: 15px;
-  background: #F0E68C;
+  font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+  background-color: #F0E68C;/*this is the color of the border*/
+color : 		brown;/*this is the color of the text inside the border*/
+  border-radius: 15px;/*here i specify the radius of the border*/
+  background: #F0E68C;/*this is the color of the border*/
    list-style: square inside url("sqpurple.gif");
-   letter-spacing: 1px;
+   letter-spacing: 1px;/*this is the space between the letters*/
 }
 img{
-  border-radius: 10px;
-  float: right;
-  -webkit-filter: sepia(100%);filter: sepia(100%);
-  max-width: 50%;
-  
+  border-radius: 10px;/*here i specify the radius of the border*/
+  float: right;/*i want the image to stand right*/
+  -webkit-filter: sepia(100%);filter: sepia(100%);/*this is the filter i used for the image*/
+  max-width: 50%;/* i set the maximum width of the image*/
+
 }

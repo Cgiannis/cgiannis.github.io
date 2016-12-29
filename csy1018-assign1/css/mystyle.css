@@ -1,60 +1,60 @@
 
 body {
-      max-width: 100%;
-background-image:url("C:/Users/user/Desktop/csy1018/cgiannis.github.io/csy1018-assign1/images/yourstory-education.jpg");
-    background-repeat: no-repeat;
-   background-size: 100% 100%;
+      max-width: 100%; /*This is the maximum width my page can be */
+background-image:url("C:/Users/user/Desktop/csy1018/cgiannis.github.io/csy1018-assign1/images/yourstory-education.jpg");/*this is the link to my backround image*/
+    background-repeat: no-repeat;/*i put this so the image wont repeat itself*/
+   background-size: 100% 100%;/*this is the percentage of space the image takes */
    height: auto;
 }
 h2 {
 
-font-family: 'Oswald', sans-serif;
-font-size: 200%;
-letter-spacing: 1px;
-  border-left: 6px solid brown;
-   border-radius: 8px;
-   background-color: #F0E68C;
-   height: 60px;
-   width: 100%;
-   color : brown
+font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+font-size: 200%;/*here i say how big i want the fonts to be*/
+letter-spacing: 1px;/*this is the space between the letters*/
+  border-left: 6px solid brown;/*here i put a border on the right*/
+   border-radius: 8px;/*here i specify the radius of the border*/
+   background-color: #F0E68C;/*this is the color of the border*/
+   height: 60px;/*this is the height of the border*/
+   width: 100%;/*this is the width of the border*/
+   color : brown/*this is the color of the text inside the border*/
 }
-h2:hover {
+h2:hover /*i added a hover so everytime i touch it changes colour*/{
    background-color: 		#BDB76B;
 }
-a:link {
+a:link/*the color of the link is brown*/ {
     color: brown;
 }
-a:visited {
+a:visited/*if the link is visited then its brown*/ {
     color: brown;
 }
-a:hover {
+a:hover/*if i touch the link it changes colour*/ {
     color: brown;
 }
-a:active {
+a:active/*if i press the link it changes into brown*/ {
     color: brown;
 }
 a:link {
     text-decoration: none;
 }
 ul {
-    margin-top: 16%;
+    margin-top: 16%;/*this is some space*/
   font-family: 'Oswald', sans-serif;
   background-color: #F0E68C;
 color : 		brown;
-  border-radius: 15px;
-  background: #F0E68C;
-   list-style: square inside url("sqpurple.gif");
+  border-radius: 15px;/*here i specify the radius of the border*/
+  background: #F0E68C;/*this is the color of the border*/
+   list-style: square inside url("sqpurple.gif");/*this is how the dots in the list appear to the user*/
    list-style-position:inside;
 }
 h1{
-    border-radius: 300px;
-  letter-spacing: 7px;
-  font-family: 'Oswald', sans-serif;
-    font-size: 500%;
-  height: 150px;
-  width: 100%;
-  color : brown;
-   text-align: center;
-     background-color: #F0E68C;
+    border-radius: 300px;/*here i specify the radius of the border*/
+  letter-spacing: 7px;/*this is the space between the letters*/
+  font-family: 'Oswald', sans-serif;/*this is the type of fonts i used in my page */
+    font-size: 500%;/*here i say how big i want the fonts to be*/
+  height: 150px;/*this is the height of the border*/
+  width: 100%;/*this is the width of the border*/
+  color : brown;/*this is the color of the text inside the border*/
+   text-align: center;/*i want the text to be in te center of the border*/
+     background-color: #F0E68C;/*this is the color of the border*/
 
 }
