@@ -20,6 +20,7 @@ li a {
     text-align: center;
     padding: 13px 100px;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 li a:hover {
     background-color: 		#BDB76B;

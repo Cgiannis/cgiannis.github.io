@@ -15,6 +15,7 @@ h1{
    text-align: center;
    border-radius: 8px;
    background-color: #F0E68C;
+   letter-spacing: 1px;
 }
 h3{
   margin-top: 1%;
@@ -25,6 +26,7 @@ h3{
    text-align: center;
    border-radius: 8px;
    background-color: #F0E68C;
+   letter-spacing: 1px;
 }
 p{
  word-wrap: break-word;
@@ -34,12 +36,15 @@ p{
       color : 		brown;
         border-radius: 15px;
         text-align: left;
+        letter-spacing: 1px;
         padding: 15px;
           max-width: 60%
+
 }
 ul {
     margin-top: 1%;
   font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
   background-color: #F0E68C;
 color : 		brown;
   border-radius: 15px;
@@ -57,6 +62,8 @@ max-width: 10%;
 background: #F0E68C;
  list-style: square inside url("sqpurple.gif");
     list-style-position:inside;
+    letter-spacing: 1px;
+
 }
 ul.experience{
   margin-top: 1%;
@@ -68,6 +75,7 @@ max-width: 10%;
 background: #F0E68C;
  list-style: square inside url("sqpurple.gif");
     list-style-position:inside;
+    letter-spacing: 1px;
 }
 h1.experience{
   font-family: 'Oswald', sans-serif;
@@ -77,6 +85,7 @@ h1.experience{
    text-align: center;
    border-radius: 8px;
    background-color: #F0E68C;
+   letter-spacing: 1px;
 }
 img{
   border-radius: 500px;

@@ -14,6 +14,7 @@ h1{
    text-align: center;
    border-radius: 8px;
    background-color: #F0E68C;
+   letter-spacing: 1px;
 }
 h2{
 margin-top: 10%;
@@ -24,7 +25,7 @@ color : brown;
  text-align: center;
  border-radius: 8px;
  background-color: #F0E68C;
-
+letter-spacing: 1px;
 
 }
 p{
@@ -37,6 +38,7 @@ p{
         text-align: left;
         padding: 1%;
           max-width: 60%;
+          letter-spacing: 1px;
 }
 ul {
     margin-top: 10%;
@@ -46,10 +48,12 @@ color : 		brown;
   border-radius: 15px;
   background: #F0E68C;
    list-style: square inside url("sqpurple.gif");
+   letter-spacing: 1px;
 }
 img{
   border-radius: 10px;
   float: right;
   -webkit-filter: sepia(100%);filter: sepia(100%);
   max-width: 50%;
+  
 }
