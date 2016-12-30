@@ -1,0 +1,30 @@
+  ul.styled-list { /*i divided the navigation bar into a class*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 		#F0E68C;
+    position: fixed;/*when i scroll down i want the nav bar to follow*/
+    left: 0;
+    top: 0;
+    width: 100%;
+        float: left;
+}
+li.styled-list{
+    float: left;/*i want the lists to stay left*/
+}
+
+li a {
+    display: block;/*the lists are inside the blocks*/
+    color: brown;
+    text-align: center;
+    padding: 13px 100px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+li a:hover {
+    background-color: 		#BDB76B;
+}
+li.styled-list2{
+  float: left;
+}
